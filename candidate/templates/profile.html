@@ -1,0 +1,26 @@
+<!-- candidate/templates/profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Profile</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Candidate Profile</h1>
+        <h2>{{ candidate.first_name }} {{ candidate.last_name }}</h2>
+        <p><strong>Email:</strong> {{ candidate.email }}</p>
+        <h3>Bio</h3>
+        <p>{{ candidate.bio }}</p>
+        <h3>Contact Details</h3>
+        <p>{{ candidate.contact_details }}</p>
+        <h3>Skills and Competencies</h3>
+        <p>{{ candidate.skills_and_competencies }}</p>
+        <h3>Education</h3>
+        <p>{{ candidate.education }}</p>
+        <h3>Work Experience</h3>
+        <p>{{ candidate.work_experience }}</p>
+    </div>
+</body>
+</html>
