@@ -8,9 +8,9 @@ This is a brief description of my project.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https:github.com/SizweT/Political-Candidate-Website
 2. Navigate to the project directory:  
-   cd <project-directory>
+   cd Political-Candidate-Website
 3. Create a virtual environment:
    python3 -m venv venv
 4. Activate the virtual environment:
@@ -23,9 +23,9 @@ This is a brief description of my project.
 ### With Docker
 
 1. Clone the repository:
-    git clone <repository-url>
+    git clone https://hub.docker.com/repository/docker/stafane001/political_candidate_website/general
 2. Navigate to the project directory:
-    cd <project-directory>
+    cd political_candidate_website
 3. Build the Docker image:
     docker build -t myproject .
 4. Run the Docker container:
